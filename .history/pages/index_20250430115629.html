@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NavBar Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="navbar-root"></div>
+
+    <script type="module">
+        import NavBar from './NavBar.js';
+
+        const nav = NavBar();
+        document.getElementById('navbar-root').appendChild(nav);
+    </script>
+</body>
+
+</html>

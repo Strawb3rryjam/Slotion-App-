@@ -1,0 +1,29 @@
+.navBar {
+  position: fixed;       /* Sticks it to a fixed position */
+  bottom: 0;             /* Places it at the bottom of the screen */
+  width: 393px;           /* Full width */
+  background-color: #f8f8f8;
+  padding: 16px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navList {
+  display: flex;         /* Align items side-by-side */
+  justify-content: center; /* Center horizontally */
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: #ccc;
+}

@@ -1,0 +1,23 @@
+.navBar {
+  position: fixed;       /* Sticks it to a fixed position */
+  bottom: 0;             /* Places it at the bottom of the screen */
+  width: 393px;           /* Full width */
+  background-color: green;
+  padding: 16px;
+}
+
+.navList {
+  display: flex;         /* Align items side-by-side */
+  justify-content: center; /* Center horizontally */
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
